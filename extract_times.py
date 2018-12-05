@@ -16,6 +16,6 @@ for index, line in enumerate(lines):
 		sample = ''
 	if 'Writing dark file' in line:
 		sample_name = line[-15:-10].strip('\n')
-	for i,t in enumerate(times):
-		print (sample_name+'_'+str(i+1), t)
+		for i,t in enumerate(times):
+			print (sample_name+'_'+str(i+1), t)
 
